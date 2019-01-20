@@ -1,0 +1,1 @@
+package com.exmaple.jarvis.chat;public class Constant {    public static String baseUrl = "jarvisdomain.ddns.net/api/";    public static String apiUserRoute = "user";    public static String apiMessageRoute = "message";}
