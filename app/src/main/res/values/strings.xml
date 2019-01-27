@@ -1,1 +1,1 @@
-<resources>    <string name="app_name">Chat</string></resources>
+<resources>    <string name="app_name">Chat</string>    <!-- start page -->    <string name="start_small_title">Log in to your account</string>    <string name="start_info1">Connect people around the world</string>    <string name="start_info2">Live your life smarter with us</string>    <string name="start_info3">Get a new experience of imagination</string>    <string name="login">Login</string>    <string name="tnc">Terms &amp; Conditions</string></resources>
