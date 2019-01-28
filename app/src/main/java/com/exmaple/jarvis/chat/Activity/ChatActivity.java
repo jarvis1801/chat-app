@@ -1,1 +1,1 @@
-package com.exmaple.jarvis.chat.Activity;public class ChatActivity {}
+package com.exmaple.jarvis.chat.Activity;import android.os.Bundle;import androidx.appcompat.app.AppCompatActivity;public class ChatActivity extends AppCompatActivity {    @Override    protected void onCreate(Bundle savedInstanceState) {        super.onCreate(savedInstanceState);        setContentView(R.layout.activity_forgot_password);    }}
