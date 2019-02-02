@@ -1,0 +1,1 @@
+package com.exmaple.jarvis.chat.Retrofit;import com.exmaple.jarvis.chat.Model.User;import io.reactivex.Observable;import retrofit2.http.GET;import retrofit2.http.Path;public interface RequestService {    @GET("user/{username}")    Observable<User> getUser(@Path("username") String username);}
