@@ -1,1 +1,1 @@
-package com.exmaple.jarvis.chat.Presenter.Interface;import com.exmaple.jarvis.chat.Model.User;public interface LoginPresenterInterface {    void getUser(String username);}
+package com.exmaple.jarvis.chat.Presenter.Interface;public interface LoginPresenterInterface {    void getUser(String username);}
