@@ -17,13 +17,8 @@
       <change beforePath="$PROJECT_DIR$/.gradle/4.10.1/taskHistory/taskHistory.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/4.10.1/taskHistory/taskHistory.lock" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/AndroidManifest.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/AndroidManifest.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/src/main/java/com/exmaple/jarvis/chat/Activity/RegisterActivity.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/exmaple/jarvis/chat/Activity/RegisterActivity.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/exmaple/jarvis/chat/Activity/RegisterView.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/exmaple/jarvis/chat/Activity/RegisterView.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/exmaple/jarvis/chat/Constant.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/exmaple/jarvis/chat/Constant.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/exmaple/jarvis/chat/Dialog/IntentDialog.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/exmaple/jarvis/chat/Dialog/IntentDialog.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/exmaple/jarvis/chat/Presenter/Interface/LoginPresenterInterface.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/exmaple/jarvis/chat/Presenter/Interface/LoginPresenterInterface.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/exmaple/jarvis/chat/Retrofit/RetrofitFactory.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/exmaple/jarvis/chat/Retrofit/RetrofitFactory.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/values/strings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/values/strings.xml" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -50,27 +45,29 @@
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
         <counts>
+          <entry key="Translations Editor" value="2" />
           <entry key="gradle" value="1" />
           <entry key="java" value="30" />
-          <entry key="xml" value="5" />
+          <entry key="xml" value="7" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
+          <entry key="" value="2" />
           <entry key="Groovy" value="1" />
           <entry key="JAVA" value="30" />
-          <entry key="XML" value="5" />
+          <entry key="XML" value="7" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
-          <entry key="java" value="2134" />
+          <entry key="java" value="2142" />
           <entry key="xml" value="85" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="JAVA" value="2134" />
+          <entry key="JAVA" value="2142" />
           <entry key="XML" value="85" />
         </counts>
       </usages-collector>
@@ -119,16 +116,22 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/src/main/java/com/exmaple/jarvis/chat/Activity/RegisterActivity.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="425">
-              <caret line="316" column="31" selection-start-line="316" selection-start-column="16" selection-end-line="316" selection-end-column="31" />
+            <state relative-caret-position="2898">
+              <caret line="227" column="79" selection-start-line="227" selection-start-column="79" selection-end-line="227" selection-end-column="79" />
               <folding>
                 <element signature="method#setViewElement#0;class#RegisterActivity#0" />
-                <element signature="e#9575#9586#0" expanded="true" />
-                <element signature="e#9588#9794#0" expanded="true" />
-                <element signature="e#9793#9794#0" expanded="true" />
-                <element signature="e#10139#10150#0" expanded="true" />
-                <element signature="e#10152#10358#0" expanded="true" />
-                <element signature="e#10357#10358#0" expanded="true" />
+                <element signature="e#7699#7739#0" expanded="true" />
+                <element signature="e#9464#9499#0" expanded="true" />
+                <element signature="e#9529#9575#0" expanded="true" />
+                <element signature="e#9675#9686#0" expanded="true" />
+                <element signature="e#9688#9894#0" expanded="true" />
+                <element signature="e#9893#9894#0" expanded="true" />
+                <element signature="e#9990#10027#0" expanded="true" />
+                <element signature="e#10057#10102#0" expanded="true" />
+                <element signature="e#10239#10250#0" expanded="true" />
+                <element signature="e#10252#10458#0" expanded="true" />
+                <element signature="e#10457#10458#0" expanded="true" />
+                <element signature="e#10857#10884#0" expanded="true" />
                 <element signature="e#10942#10943#0" expanded="true" />
                 <element signature="e#10970#10971#0" expanded="true" />
                 <element signature="e#11057#11058#0" expanded="true" />
@@ -138,29 +141,11 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/src/main/java/com/exmaple/jarvis/chat/Activity/LoginActivity.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="280">
+            <state relative-caret-position="2538">
               <caret line="173" selection-start-line="173" selection-end-line="186" selection-end-column="5" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/build.gradle">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="262">
-              <caret line="36" column="49" selection-start-line="36" selection-start-column="37" selection-end-line="36" selection-end-column="49" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/src/main/java/com/exmaple/jarvis/chat/Retrofit/RequestService.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="180">
-              <caret line="22" column="106" selection-start-line="22" selection-start-column="41" selection-end-line="22" selection-end-column="106" />
             </state>
           </provider>
         </entry>
@@ -195,7 +180,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/src/main/java/com/exmaple/jarvis/chat/Activity/StartActivity.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="401">
+            <state relative-caret-position="-1221">
               <caret line="65" selection-start-line="65" selection-end-line="67" selection-end-column="29" />
               <folding>
                 <element signature="imports" expanded="true" />
@@ -228,6 +213,32 @@
           </provider>
         </entry>
       </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/src/main/res/values/strings.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="521">
+              <caret line="60" column="82" selection-start-line="29" selection-start-column="4" selection-end-line="60" selection-end-column="82" />
+              <folding>
+                <element signature="e#451#456#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="android-dummy://C:/Users/Jarvis/AndroidStudioProjects/Chat/app/Translations Editor">
+          <provider selected="true" editor-type-id="string-resource-editor" />
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/src/main/res/values-zh-rHK/strings.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="180">
+              <caret line="38" column="12" selection-start-line="38" selection-start-column="12" selection-end-line="38" selection-end-column="12" />
+            </state>
+          </provider>
+        </entry>
+      </file>
     </leaf>
   </component>
   <component name="FileTemplateManagerImpl">
@@ -236,6 +247,7 @@
         <option value="Interface" />
         <option value="resourceFile" />
         <option value="Class" />
+        <option value="valueResourceFile" />
       </list>
     </option>
   </component>
@@ -255,6 +267,7 @@
       <find>tnc_dialog</find>
       <find>android:authorities</find>
       <find>userExistDialog</find>
+      <find>Username is already exist</find>
       <find>showDialog</find>
     </findStrings>
   </component>
@@ -285,9 +298,9 @@
         <option value="$PROJECT_DIR$/app/src/main/java/com/exmaple/jarvis/chat/Constant.java" />
         <option value="$PROJECT_DIR$/app/src/main/java/com/exmaple/jarvis/chat/Dialog/IntentDialog.java" />
         <option value="$PROJECT_DIR$/app/src/main/java/com/exmaple/jarvis/chat/Retrofit/RetrofitFactory.java" />
-        <option value="$PROJECT_DIR$/app/src/main/java/com/exmaple/jarvis/chat/Activity/RegisterActivity.java" />
         <option value="$PROJECT_DIR$/app/src/main/java/com/exmaple/jarvis/chat/Presenter/RegisterPresenter.java" />
         <option value="$PROJECT_DIR$/app/src/main/java/com/exmaple/jarvis/chat/Activity/RegisterView.java" />
+        <option value="$PROJECT_DIR$/app/src/main/java/com/exmaple/jarvis/chat/Activity/RegisterActivity.java" />
       </list>
     </option>
   </component>
@@ -353,6 +366,19 @@
               <item name="Chat" type="1abcf292:AndroidViewProjectNode" />
               <item name="app" type="feadf853:AndroidModuleNode" />
               <item name="res" type="d4f16f75:AndroidResFolderNode" />
+            </path>
+            <path>
+              <item name="Chat" type="1abcf292:AndroidViewProjectNode" />
+              <item name="app" type="feadf853:AndroidModuleNode" />
+              <item name="res" type="d4f16f75:AndroidResFolderNode" />
+              <item name="values" type="ddeffd01:AndroidResFolderTypeNode" />
+            </path>
+            <path>
+              <item name="Chat" type="1abcf292:AndroidViewProjectNode" />
+              <item name="app" type="feadf853:AndroidModuleNode" />
+              <item name="res" type="d4f16f75:AndroidResFolderNode" />
+              <item name="values" type="ddeffd01:AndroidResFolderTypeNode" />
+              <item name="strings" type="c431d0b8:AndroidResGroupNode" />
             </path>
             <path>
               <item name="Chat" type="1abcf292:AndroidViewProjectNode" />
@@ -483,7 +509,7 @@
       <window_info id="Image Layers" order="5" />
       <window_info id="Designer" order="6" />
       <window_info id="Favorites" order="7" side_tool="true" />
-      <window_info anchor="bottom" id="Logcat" order="0" visible="true" weight="0.32729104" />
+      <window_info anchor="bottom" id="Logcat" order="0" weight="0.32729104" />
       <window_info anchor="bottom" id="TODO" order="1" weight="0.32930514" />
       <window_info anchor="bottom" id="Android Profiler" order="2" weight="0.32930514" />
       <window_info anchor="bottom" id="Debug" order="3" />
@@ -492,7 +518,8 @@
       <window_info anchor="bottom" id="Version Control" order="6" weight="0.32919255" />
       <window_info anchor="bottom" id="Build" order="7" weight="0.26686808" />
       <window_info anchor="bottom" id="Find" order="8" weight="0.32970452" />
-      <window_info anchor="bottom" id="Terminal" order="9" weight="0.32930514" />
+      <window_info anchor="bottom" id="Terminal" order="9" visible="true" weight="0.3242699" />
+      <window_info anchor="right" id="StringPreview" />
       <window_info anchor="right" id="Device File Explorer" order="0" side_tool="true" />
       <window_info anchor="right" id="Capture Analysis" order="1" />
       <window_info anchor="right" id="Gradle" order="2" />
@@ -560,16 +587,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="95">
           <caret line="5" column="28" selection-start-line="5" selection-start-column="17" selection-end-line="5" selection-end-column="28" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/res/values/strings.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="200">
-          <caret line="49" column="57" selection-start-line="49" selection-start-column="57" selection-end-line="49" selection-end-column="57" />
-          <folding>
-            <element signature="e#451#456#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -661,16 +678,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/exmaple/jarvis/chat/Presenter/LoginPresenter.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="270">
-          <caret line="29" column="29" selection-start-line="29" selection-start-column="29" selection-end-line="29" selection-end-column="29" />
-          <folding>
-            <element signature="e#1332#1333#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$USER_HOME$/AppData/Local/Android/Sdk/sources/android-28/android/content/ContextWrapper.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-198">
@@ -680,13 +687,6 @@
             <element signature="e#3365#3366#0" expanded="true" />
             <element signature="e#3417#3418#0" expanded="true" />
           </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/exmaple/jarvis/chat/Retrofit/RetrofitFactory.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="90">
-          <caret line="18" column="42" selection-start-line="18" selection-start-column="42" selection-end-line="18" selection-end-column="42" />
         </state>
       </provider>
     </entry>
@@ -714,13 +714,17 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/exmaple/jarvis/chat/Activity/StartActivity.java">
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/exmaple/jarvis/chat/Activity/LoginActivity.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="401">
-          <caret line="65" selection-start-line="65" selection-end-line="67" selection-end-column="29" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
+        <state relative-caret-position="2538">
+          <caret line="173" selection-start-line="173" selection-end-line="186" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/exmaple/jarvis/chat/Retrofit/RetrofitFactory.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="90">
+          <caret line="18" column="42" selection-start-line="18" selection-start-column="42" selection-end-line="18" selection-end-column="42" />
         </state>
       </provider>
     </entry>
@@ -740,6 +744,52 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/exmaple/jarvis/chat/Activity/StartActivity.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-1221">
+          <caret line="65" selection-start-line="65" selection-end-line="67" selection-end-column="29" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/exmaple/jarvis/chat/Presenter/LoginPresenter.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="270">
+          <caret line="29" column="29" selection-start-line="29" selection-start-column="29" selection-end-line="29" selection-end-column="29" />
+          <folding>
+            <element signature="e#1332#1333#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/exmaple/jarvis/chat/Activity/RegisterActivity.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2898">
+          <caret line="227" column="79" selection-start-line="227" selection-start-column="79" selection-end-line="227" selection-end-column="79" />
+          <folding>
+            <element signature="method#setViewElement#0;class#RegisterActivity#0" />
+            <element signature="e#7699#7739#0" expanded="true" />
+            <element signature="e#9464#9499#0" expanded="true" />
+            <element signature="e#9529#9575#0" expanded="true" />
+            <element signature="e#9675#9686#0" expanded="true" />
+            <element signature="e#9688#9894#0" expanded="true" />
+            <element signature="e#9893#9894#0" expanded="true" />
+            <element signature="e#9990#10027#0" expanded="true" />
+            <element signature="e#10057#10102#0" expanded="true" />
+            <element signature="e#10239#10250#0" expanded="true" />
+            <element signature="e#10252#10458#0" expanded="true" />
+            <element signature="e#10457#10458#0" expanded="true" />
+            <element signature="e#10857#10884#0" expanded="true" />
+            <element signature="e#10942#10943#0" expanded="true" />
+            <element signature="e#10970#10971#0" expanded="true" />
+            <element signature="e#11057#11058#0" expanded="true" />
+            <element signature="e#11093#11094#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/app/src/main/java/com/exmaple/jarvis/chat/Activity/RegisterView.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="216">
@@ -750,32 +800,25 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/exmaple/jarvis/chat/Activity/RegisterActivity.java">
+    <entry file="file://$PROJECT_DIR$/app/src/main/res/values/strings.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="425">
-          <caret line="316" column="31" selection-start-line="316" selection-start-column="16" selection-end-line="316" selection-end-column="31" />
+        <state relative-caret-position="521">
+          <caret line="60" column="82" selection-start-line="29" selection-start-column="4" selection-end-line="60" selection-end-column="82" />
           <folding>
-            <element signature="method#setViewElement#0;class#RegisterActivity#0" />
-            <element signature="e#9575#9586#0" expanded="true" />
-            <element signature="e#9588#9794#0" expanded="true" />
-            <element signature="e#9793#9794#0" expanded="true" />
-            <element signature="e#10139#10150#0" expanded="true" />
-            <element signature="e#10152#10358#0" expanded="true" />
-            <element signature="e#10357#10358#0" expanded="true" />
-            <element signature="e#10942#10943#0" expanded="true" />
-            <element signature="e#10970#10971#0" expanded="true" />
-            <element signature="e#11057#11058#0" expanded="true" />
-            <element signature="e#11093#11094#0" expanded="true" />
+            <element signature="e#451#456#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/exmaple/jarvis/chat/Activity/LoginActivity.java">
+    <entry file="file://$PROJECT_DIR$/app/src/main/res/values-zh-rHK/strings.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="280">
-          <caret line="173" selection-start-line="173" selection-end-line="186" selection-end-column="5" />
+        <state relative-caret-position="180">
+          <caret line="38" column="12" selection-start-line="38" selection-start-column="12" selection-end-line="38" selection-end-column="12" />
         </state>
       </provider>
+    </entry>
+    <entry file="android-dummy://C:/Users/Jarvis/AndroidStudioProjects/Chat/app/Translations Editor">
+      <provider selected="true" editor-type-id="string-resource-editor" />
     </entry>
   </component>
 </project>
