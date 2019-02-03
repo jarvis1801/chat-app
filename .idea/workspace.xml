@@ -223,6 +223,9 @@
       <find>design</find>
     </findStrings>
   </component>
+  <component name="Git.Rebase.Settings">
+    <option name="SHOW_TAGS" value="true" />
+  </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
@@ -244,11 +247,11 @@
       </list>
     </option>
   </component>
-  <component name="ProjectFrameBounds" extendedState="1">
-    <option name="x" value="85" />
-    <option name="y" value="25" />
-    <option name="width" value="1750" />
-    <option name="height" value="970" />
+  <component name="ProjectFrameBounds" extendedState="7">
+    <option name="x" value="262" />
+    <option name="y" value="-25" />
+    <option name="width" value="1038" />
+    <option name="height" value="758" />
   </component>
   <component name="ProjectView">
     <navigator proportions="" version="1">
