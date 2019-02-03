@@ -1,0 +1,1 @@
+package com.exmaple.jarvis.chat.Activity;public interface RegisterView {    void register();}
