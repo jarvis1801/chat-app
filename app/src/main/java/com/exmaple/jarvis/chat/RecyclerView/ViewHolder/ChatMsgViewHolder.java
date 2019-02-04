@@ -10,8 +10,6 @@ public class ChatMsgViewHolder extends RecyclerView.ViewHolder {
     public ImageView img_user_avatar;
     public TextView tv_username, tv_date_time, tv_message;
 
-    public ImageView img_thumbnail;
-
     public ChatMsgViewHolder(View itemView) {
         super(itemView);
     }
