@@ -3,6 +3,7 @@ package com.exmaple.jarvis.chat.Presenter;
 import android.util.Log;
 
 import com.exmaple.jarvis.chat.Activity.HomeView;
+import com.exmaple.jarvis.chat.Model.ChatMessageListItem;
 import com.exmaple.jarvis.chat.Model.Message;
 import com.exmaple.jarvis.chat.Model.User;
 import com.exmaple.jarvis.chat.Presenter.Interface.HomePresenterInterface;
@@ -29,9 +30,9 @@ public class HomePresenter implements HomePresenterInterface {
         Disposable disposable = RetrofitFactory.getInstance().getChatMsgList(username)
                 .subscribeOn(Schedulers.io())
                 .observeOn(AndroidSchedulers.mainThread())
-                .subscribe(new Consumer<List<Message>>() {
+                .subscribe(new Consumer<List<ChatMessageListItem>>() {
                     @Override
-                    public void accept(@NonNull List<Message> msgList) throws Exception {
+                    public void accept(@NonNull List<ChatMessageListItem> msgList) throws Exception {
                         mView.setAdapter(msgList);
                         Log.e("test", "yes");
                         Log.e("test", msgList.toString());
