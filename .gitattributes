@@ -1,0 +1,13 @@
+
+* text=auto !eol
+
+gradlew			text eol=lf
+.idea/*.xml		text eol=lf
+1
+2
+3
+4
+* text=auto !eol
+ 
+gradlew			text eol=lf
+.idea/*.xml		text eol=lf
