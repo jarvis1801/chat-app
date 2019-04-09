@@ -1,1 +1,112 @@
-<resources>    <!-- Base application theme. -->    <style name="AppTheme" parent="Theme.AppCompat.Light.DarkActionBar">        <!-- Customize your theme here. -->        <item name="colorPrimary">@color/colorPrimary</item>        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>        <item name="colorAccent">@color/colorAccent</item>    </style></resources>
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.NoActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+    </style>
+
+    <style name="HeaderText">
+        <item name="android:textColor">@color/colorPrimary</item>
+        <item name="android:textSize">@dimen/headerText</item>
+        <item name="fontFamily">sans-serif</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:paddingTop">@dimen/textPaddingVertical</item>
+        <item name="android:paddingLeft">@dimen/textPaddingHorizontal</item>
+        <item name="android:paddingRight">@dimen/textPaddingHorizontal</item>
+    </style>
+
+    <style name="SmallText">
+        <item name="android:textColor">@color/colorText</item>
+        <item name="android:textSize">@dimen/smallText</item>
+        <item name="fontFamily">sans-serif-light</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:paddingTop">@dimen/textPaddingVertical</item>
+        <item name="android:paddingLeft">@dimen/textPaddingHorizontal</item>
+        <item name="android:paddingRight">@dimen/textPaddingHorizontal</item>
+        <item name="android:lineSpacingExtra">-1sp</item>
+    </style>
+
+    <style name="ButtonText">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">match_parent</item>
+        <item name="android:textAlignment">center</item>
+        <item name="fontFamily">sans-serif-medium</item>
+        <item name="textAllCaps">true</item>
+        <item name="android:textSize">@dimen/buttonText</item>
+        <item name="android:textColor">@color/colorOnPrimary</item>
+        <item name="android:lineSpacingExtra">-4sp</item>
+        <item name="android:padding">@dimen/textPaddingVertical</item>
+    </style>
+
+    <style name="ButtonCardView">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_marginRight">@dimen/textPaddingHorizontal</item>
+        <item name="android:layout_marginLeft">@dimen/textPaddingHorizontal</item>
+        <item name="android:clickable">true</item>
+        <item name="android:focusable">true</item>
+        <item name="android:foreground">@drawable/button_bg</item>
+    </style>
+
+    <style name="ReminderText">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:textColor">@color/colorText</item>
+        <item name="fontFamily">sans-serif-light</item>
+        <item name="android:alpha">0.45</item>
+        <item name="android:textSize">@dimen/reminderText</item>
+        <item name="android:lineSpacingExtra">0sp</item>
+        <item name="android:textAlignment">center</item>
+        <item name="android:paddingTop">@dimen/textPaddingVertical</item>
+        <item name="android:paddingBottom">@dimen/textPaddingVertical</item>
+    </style>
+
+    <style name="TextInputLayoutHintText" parent="@android:style/TextAppearance">
+        <item name="android:textColor">@color/colorPrimary</item>
+        <item name="android:textSize">@dimen/formInputTILSize</item>
+    </style>
+
+    <style name="EditTextTIL">
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:paddingTop">@dimen/formInputLineSpaceTop</item>
+        <item name="android:paddingBottom">@dimen/formInputLineSpaceBottom</item>
+        <item name="android:singleLine">true</item>
+    </style>
+
+    <style name="CardViewBackBtn">
+        <item name="android:layout_margin">20dp</item>
+        <item name="android:layout_height">32dp</item>
+        <item name="android:layout_width">32dp</item>
+    </style>
+
+    <style name="ImageViewBackBtn">
+        <item name="android:layout_height">match_parent</item>
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:foreground">@drawable/image_view_back_button_ripple</item>
+        <item name="android:clickable">true</item>
+        <item name="tint">@color/colorText</item>
+        <item name="android:alpha">0.45</item>
+    </style>
+
+    <style name="TextViewTitle">
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_gravity">center</item>
+        <item name="android:textSize">@dimen/titleText</item>
+        <item name="android:padding">@dimen/smallText</item>
+        <item name="android:textColor">@color/colorPrimary</item>
+    </style>
+
+    <style name="TextInputLayoutStyle">
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_marginBottom">@dimen/formInputPadding</item>
+    </style>
+
+</resources>

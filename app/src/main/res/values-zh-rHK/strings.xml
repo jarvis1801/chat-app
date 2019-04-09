@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Chat</string>
+    <string name="start_small_title">登入到您的帳戶</string>
+    <string name="start_info1">連接世界各地的人</string>
+    <string name="start_info2">讓我們的生活更加好</string>
+    <string name="start_info3">獲得全新的想像體驗</string>
+    <string name="get_started">開始使用</string>
+    <string name="tnc">條款和條款</string>
+    <string name="tnc_content">通過下載或使用該應用程序，這些條款將自動適用於您 - 因此您應該確保在使用該應用程序之前仔細閱讀它們。您不得以任何方式複製或修改應用程序，應用程序的任何部分或我們的商標。您不得嘗試提取應用程序的源代碼，也不應嘗試將應用程序翻譯成其他語言，或製作衍生版本。應用程序本身以及與之相關的所有商標，版權，數據庫權利和其他知識產權仍然屬於。\\ n \\ n         致力於確保應用程序盡可能有用和高效。因此，我們保留隨時以任何理由對應用程序進行更改或對其服務收費的權利。我們絕不會向您收取應用程序或其服務的費用，除非您明確了解自己所支付的費用。\\ n \\ n         聊天應用程序存儲和處理您提供給我們的個人數據，以便提供我的服務。您有責任確保手機和應用程序的安全訪問。因此，我們建議您不要越獄或root手機，這是刪除設備官方操作系統所施加的軟件限制和限制的過程。它可能會使您的手機容易受到惡意軟件/病毒/惡意程序的侵害，從而危及手機的安全功能，這可能意味著聊天應用無法正常運行或根本無法正常運行。\\ n \\ n         您應該知道有些事情不會對此負責。該應用程序的某些功能將要求該應用程序具有活動的Internet連接。連接可以是Wi-Fi，也可以由您的移動網絡提供商提供，但如果您無法訪問Wi-Fi，並且您沒有任何數據，則無法對應用程序無法正常工作負責剩下的津貼。\\ n \\ n         如果您在具有Wi-Fi的區域之外使用該應用程序，您應該記住，您與移動網絡提供商的協議條款仍然適用。因此，移動服務提供商可能會向您收取訪問應用時連接期間的數據費用或其他第三方費用。在使用該應用程序時，您承擔任何此類費用的責任，包括漫遊數據費用，如果您在本國境外（即地區或國家/地區）使用該應用程序而不關閉數據漫遊。如果您不是使用該應用程序的設備的賬單付款人，請注意我們假設您已收到賬單付款人使用該應用程序的許可。\\ n \\ n         沿著同樣的路線，不能總是對您使用該應用程序的方式負責，即您需要確保您的設備保持充電 - 如果電池電量耗盡而您無法將其打開以利用該服務，則不能承擔責任。\\ n \\ n         關於您使用該應用程序的責任，當您使用該應用程序時，請務必記住，儘管我們始終努力確保其更新和更正，但我們依賴於第三方向我們提供信息，以便我們為您提供。對因完全依賴應用程序功能而導致的任何直接或間接損失不承擔任何責任。\\ n \\ n         在某些時候，我們可能希望更新該應用程序。該應用程序目前在Android上可用 - 系統（以及我們決定將應用程序的可用性擴展到的任何其他系統）的要求可能會發生變化，如果您想繼續使用該應用程序，則需要下載更新。不承諾它將始終更新應用程序，使其與您相關和/或使用您在設備上安裝的Android版本。但是，您承諾在提供給您時始終接受應用程序的更新，我們可能還希望停止提供該應用程序，並且可以隨時終止使用該應用程序，而無需向您發出終止通知。除非我們另行通知，否則在任何終止後，（a）以這些條款授予您的權利和許可將終止; （b）您必須停止使用該應用程序，並且（如果需要）將其從您的設備中刪除。\\ n \\ n         本條款和條件的變更\\ n \\ n         我可能會不時更新我們的條款和條件。因此，建議您定期查看此頁面以了解任何更改。我將通過在此頁面上發布新條款和條件通知您任何更改。這些更改在此頁面上發布後立即生效。\\ n \\ n         聯繫我們\\ n \\ n         如果您對我的條款和條件有任何問題或建議，請隨時與我聯繫。</string>
+    <string name="forgot_password">忘記密碼？</string>
+    <string name="remember_me">記住我的帳戶</string>
+    <string name="new_user">新用戶？</string>
+    <string name="ok">確定</string>
+    <string name="password">密碼</string>
+    <string name="username">用戶名稱</string>
+    <string name="sign_up">註冊</string>
+    <string name="login">登入</string>
+    <string name="register">註冊</string>
+    <string name="email">電子郵件</string>
+    <string name="display_name">顯示名稱</string>
+    <string name="already_has_a_account">已經擁有帳戶？</string>
+    <string name="click_here_to_login">點擊此處登錄</string>
+    <string name="choose_one_to_get_photo">選擇一個方法獲取照片</string>
+    <string name="cancel">取消</string>
+    <string name="username_not_exist">用戶名稱不存在。</string>
+    <string name="error_password">錯誤密碼</string>
+    <string name="min_char_length">"最小字符長度為8 "</string>
+    <string name="close_app_hint">請再次單擊 返回鍵 退出</string>
+    <string name="log_in_to_your_account">登錄到您的帳戶</string>
+    <string name="i_agree_the_terms_and_conditions">我同意條款和條件</string>
+    <string name="display_name_cannot_empty">顯示名稱不能為空</string>
+    <string name="loading">載入中</string>
+    <string name="connect_db_failed">無法連接數據庫</string>
+    <string name="connect_db_failed_content">請稍後再試，如果可能請聯繫管理員</string>
+    <string name="register_failed">註冊失敗</string>
+    <string name="username_is_already_exisit">用戶名已存在</string>
+    <string name="email_correct_format">請輸入正確格式的電子郵件</string>
+    <string name="yesterday">昨天</string>
+
+    <string name="me">我:</string>
+    <string name="refresh">刷新</string>
+    <string name="enter_message">輸入信息</string>
+
+    <string name="nav_header_desc">導航欄</string>
+    <string name="nav_header_title">用戶名</string>
+    <string name="nav_header_subtitle">電子郵件</string>
+    <string name="logout">登出</string>
+    <string name="settings">設定</string>
+    <string name="profile">個人資料</string>
+    <string name="confirmPassword">新密碼</string>
+    <string name="update">更新</string>
+    <string name="chat_list">聊天列表</string>
+
+    <string name="add_friends">新增朋友</string>
+</resources>
