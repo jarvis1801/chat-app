@@ -1,8 +1,8 @@
 <component name="libraryTable">
   <library name="Gradle: com.github.nisrulz:validatetor:1.0.0@aar">
     <CLASSES>
-      <root url="jar://$USER_HOME$/.gradle/caches/transforms-1/files-1.1/validatetor-1.0.0.aar/931ba33bf3691ae066f8e932ccc030ef/jars/classes.jar!/" />
-      <root url="file://$USER_HOME$/.gradle/caches/transforms-1/files-1.1/validatetor-1.0.0.aar/931ba33bf3691ae066f8e932ccc030ef/res" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-1/files-1.1/validatetor-1.0.0.aar/7fee97f56c3c4668d921a481b1ea8c2f/res" />
+      <root url="jar://$USER_HOME$/.gradle/caches/transforms-1/files-1.1/validatetor-1.0.0.aar/7fee97f56c3c4668d921a481b1ea8c2f/jars/classes.jar!/" />
     </CLASSES>
     <JAVADOC />
     <SOURCES>

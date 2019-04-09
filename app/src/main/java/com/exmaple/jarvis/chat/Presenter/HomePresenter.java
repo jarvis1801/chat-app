@@ -9,8 +9,10 @@ import com.exmaple.jarvis.chat.Model.User;
 import com.exmaple.jarvis.chat.Presenter.Interface.HomePresenterInterface;
 import com.exmaple.jarvis.chat.Retrofit.RetrofitFactory;
 
+import java.net.SocketTimeoutException;
 import java.util.List;
 
+import es.dmoral.toasty.Toasty;
 import io.reactivex.android.schedulers.AndroidSchedulers;
 import io.reactivex.annotations.NonNull;
 import io.reactivex.disposables.CompositeDisposable;
@@ -34,15 +36,15 @@ public class HomePresenter implements HomePresenterInterface {
                     @Override
                     public void accept(@NonNull List<ChatMessageListItem> msgList) throws Exception {
                         mView.setAdapter(msgList);
-                        Log.e("test", "yes");
-                        Log.e("test", msgList.toString());
-                        for (int i = 0; i < msgList.size(); i++) {
-                            Log.e("test", msgList.get(i).toString());
-                        }
+                        mView.hideProgressBar();
                     }
                 }, new Consumer<Throwable>() {
                     @Override
                     public void accept(@NonNull Throwable throwable) throws Exception {
+                        if (throwable instanceof SocketTimeoutException) {
+                            mView.showDatabaseErrorDialog();
+                            mView.hideProgressBar();
+                        }
                         throwable.printStackTrace();
                     }
                 });

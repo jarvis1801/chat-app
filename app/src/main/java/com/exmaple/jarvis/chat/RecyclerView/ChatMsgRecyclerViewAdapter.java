@@ -1,6 +1,7 @@
 package com.exmaple.jarvis.chat.RecyclerView;
 
 import android.content.Context;
+import android.content.Intent;
 import android.util.Log;
 import android.view.LayoutInflater;
 import android.view.View;
@@ -9,10 +10,14 @@ import android.widget.ImageView;
 import android.widget.TextView;
 
 import com.bumptech.glide.Glide;
+import com.bumptech.glide.request.RequestOptions;
+import com.exmaple.jarvis.chat.Activity.ChatActivity;
 import com.exmaple.jarvis.chat.Activity.R;
 import com.exmaple.jarvis.chat.Model.ChatMessageListItem;
 import com.exmaple.jarvis.chat.Model.Message;
 import com.exmaple.jarvis.chat.RecyclerView.ViewHolder.ChatMsgViewHolder;
+import com.github.thunder413.datetimeutils.DateTimeUnits;
+import com.github.thunder413.datetimeutils.DateTimeUtils;
 
 import org.json.JSONException;
 
@@ -28,10 +33,12 @@ import androidx.recyclerview.widget.RecyclerView;
 public class ChatMsgRecyclerViewAdapter extends RecyclerView.Adapter<ChatMsgViewHolder> {
     private Context mContext;
     private List<ChatMessageListItem> mData;
+    private String me;
 
-    public ChatMsgRecyclerViewAdapter(Context context, List<ChatMessageListItem> msgList) {
+    public ChatMsgRecyclerViewAdapter(Context context, List<ChatMessageListItem> msgList, String username) {
         mContext = context;
         mData = msgList;
+        me = username;
     }
 
     @NonNull
@@ -55,12 +62,29 @@ public class ChatMsgRecyclerViewAdapter extends RecyclerView.Adapter<ChatMsgView
         final ChatMessageListItem currentMsg = (ChatMessageListItem) mData.get(position);
 
         holder.tv_username.setText(currentMsg.getOtherUser().getDisplayName());
-        holder.tv_message.setText(currentMsg.getMessage());
+        String msg = currentMsg.getSender().equals(me) ? mContext.getString(R.string.me) + " " + currentMsg.getMessage() : currentMsg.getMessage();
+        holder.tv_message.setText(msg);
         holder.tv_date_time.setText(getMsgDate(currentMsg.getPostedAt()));
 
-            Glide.with(mContext)
-                    .load(currentMsg.getOtherUser().getAvatar())
-                    .into(holder.img_user_avatar);
+        Glide.with(mContext)
+                .load(currentMsg.getOtherUser().getAvatar())
+                .apply(new RequestOptions()
+                        .placeholder(R.drawable.placeholder)
+                        .fitCenter())
+                .into(holder.img_user_avatar);
+
+        holder.itemView.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent i = new Intent(mContext, ChatActivity.class);
+                i.setFlags(Intent.FLAG_ACTIVITY_NEW_TASK);
+                i.putExtra("group_id", currentMsg.getGroupId());
+                i.putExtra("user2_username", currentMsg.getOtherUser().getUsername());
+                i.putExtra("user2_displayname", currentMsg.getOtherUser().getDisplayName());
+                i.putExtra("user2_avatar", currentMsg.getOtherUser().getAvatar());
+                mContext.startActivity(i);
+            }
+        });
     }
 
     private String getMsgDate(String date) {
@@ -69,14 +93,17 @@ public class ChatMsgRecyclerViewAdapter extends RecyclerView.Adapter<ChatMsgView
 
         String value = null;
 
-        if (date.compareTo(today) < 1) {
+        Log.e("test", String.valueOf(date.compareTo(today)));
+        int dayDiff = DateTimeUtils.getDateDiff(date, today, DateTimeUnits.DAYS);
+        Log.e("test", String.valueOf(dayDiff));
+        if (dayDiff >= -1) {
             SimpleDateFormat dateFormat = new SimpleDateFormat("HH:mm", Locale.CHINESE);
             try {
                 value = dateFormat.format(sdf.parse(date));
             } catch (ParseException e) {
                 e.printStackTrace();
             }
-        } else if (date.compareTo(today) < 2) {
+        } else if (dayDiff >= -2) {
             value = mContext.getString(R.string.yesterday);
         } else {
             SimpleDateFormat dateFormat = new SimpleDateFormat("dd/MM/yyyy", Locale.CHINESE);

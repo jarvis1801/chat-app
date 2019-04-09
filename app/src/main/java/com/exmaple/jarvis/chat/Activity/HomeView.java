@@ -7,4 +7,6 @@ import java.util.List;
 
 public interface HomeView {
     void setAdapter(List<ChatMessageListItem> msgList);
+    void showDatabaseErrorDialog();
+    void hideProgressBar();
 }
