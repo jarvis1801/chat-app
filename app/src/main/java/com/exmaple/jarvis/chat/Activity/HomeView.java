@@ -10,3 +10,4 @@ public interface HomeView {
     void showDatabaseErrorDialog();
     void hideProgressBar();
 }
+
