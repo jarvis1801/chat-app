@@ -1,5 +1,5 @@
 
-* text=auto !eol
+* text eol=lf
 
 gradlew			text eol=lf
 .idea/*.xml		text eol=lf
